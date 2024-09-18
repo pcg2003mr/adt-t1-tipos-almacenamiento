@@ -47,3 +47,6 @@ Dificultad en la edición: A pesar de ser legible, editar archivos XML grandes p
 
 Validación: Aunque XML permite la validación a través de esquemas (XSD), esta característica puede añadir una capa de complejidad adicional al proceso de desarrollo.
 
+Los inconvenientes de usar XML están interrelacionados; por ejemplo, el tamaño del archivo y la complejidad pueden contribuir a un rendimiento más lento,
+lo que afecta la eficiencia general al trabajar con datos. Además, la dificultad en la edición de archivos grandes puede complicar aún más la validación, 
+ya que cualquier error puede ser difícil de detectar y corregir.
