@@ -61,6 +61,13 @@ Están compuestas por documentos que se relacionan entre sí y que permiten repr
 
 ### Casos de uso reales observados
 1. **Redes sociales**
+
 ![Redes](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKrFhY-ljA-u7J5IMWeTv8zmpBx4PP9nQMw&s)
 
 Facebook utiliza Cassandra para manejar los datos generados por usuarios como comentarios, likes, publicaciones...X utiliza también Cassandra y Storm para procesar en tiempo real los tweets y construir un índice de búsqueda invertido.
+
+2. **Comercio electrónico**
+
+![Comercio](https://brandemia.org/contenido/subidas/2022/11/logo-amazon-2000-actualidad-1024x576.png)
+
+Utiliza DynamoDB para almacenar información de productos, pedidos, recomendaciones y datos de clientes en tiempo real. Esto les permite ofrecer una experiencia de compra personalizada y escalable.
