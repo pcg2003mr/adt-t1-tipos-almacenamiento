@@ -17,6 +17,23 @@ El uso de las bases de datos orientadas a objetos es relativamente limitado en c
  
 ### Descripción del funcionamiento del sistema de almacenamiento:
 
+Componentes y Funcionamiento: 
+
+Almacenamiento de Objetos 
+
+En lugar de utilizar tablas, las bases de datos orientadas a objetos almacenan los datos en forma de objetos, que son instancias de clases con propiedades y métodos definidos. 
+
+Integridad de Datos 
+
+Implementan mecanismos para asegurar la integridad de los datos, como la gestión de transacciones, control de concurrencia y recuperación ante fallos. 
+
+Persistencia de Objetos 
+
+Los objetos creados bajo este modelo pueden ser almacenados directamente en la base de datos sin necesidad de convertirlos a otro formato, como filas o columnas. 
+
+Consultas 
+
+A diferencia de las bases de datos relacionales, estas utilizan lenguajes de consulta orientados a objetos, que permiten realizar consultas complejas sobre los objetos y sus relaciones. 
 
  
 ### Ventajas e inconvenientes:
