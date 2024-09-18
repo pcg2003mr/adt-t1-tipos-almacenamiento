@@ -9,3 +9,13 @@ XML (Lenguaje de Marcado Extensible) apareció a finales de los años 90. Fue cr
 - **Uso en la web**: XML se adoptó rápidamente en aplicaciones y servicios web, especialmente con el crecimiento de APIs y el intercambio de datos entre plataformas diferentes.
 - **Soporte en herramientas**: La aparición de herramientas de software y bibliotecas que simplificaron el trabajo con XML hizo que su uso fuera más accesible.
 - **Aplicaciones**: Se ha implementado en múltiples contextos, desde configuraciones de software hasta el almacenamiento de datos en bases de datos, y también en estándares como SOAP para servicios web.
+
+# Nivel de Adopción
+El nivel de adopción de XML ha sido significativo desde su creación y ha impactado diversos sectores. Aspectos clave de su adopción:
+
+- **Industria tecnológica**: XML se ha establecido como un estándar para el intercambio de datos entre aplicaciones, siendo especialmente relevante en la integración de sistemas.
+- **Desarrollo de APIs**: Muchas APIs y servicios web utilizan XML como formato para la transmisión de datos, lo que facilita la interoperabilidad entre diferentes plataformas.
+- **Documentación y publicaciones**: XML se emplea en la producción de documentos técnicos y publicaciones electrónicas, como es el caso de estándares como DocBook y TEI.
+- **Sistemas de gestión de bases de datos**: También han adoptado XML, permitiendo almacenar y consultar datos en este formato, lo que añade flexibilidad en la manipulación de información.
+
+Finalmente, muchos programas utilizan archivos XML para almacenar configuraciones, gracias a su legibilidad y estructura clara, lo que los hace fáciles de usar y modificar. 
