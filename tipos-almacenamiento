@@ -35,3 +35,15 @@ En definitiva,la estructura jerárquica de XML se complementa con su legibilidad
 permitiendo que diferentes sistemas interpreten los datos de manera efectiva. La auto-descripción de los datos se apoya en esta legibilidad, eliminando la necesidad de documentación adicional
 y facilitando el trabajo en equipo. La capacidad de incluir metadatos refuerza aún más la auto-descripción, proporcionando un contexto adicional que mejora la calidad de los datos.
 Por último, el amplio soporte disponible para XML en múltiples lenguajes asegura que los desarrolladores pueden implementar y mantener sistemas que aprovechen todas estas ventajas de manera eficiente.
+
+Inconvenientes:
+Tamaño del archivo: Los archivos XML tienden a ser más voluminosos que otros formatos, como JSON, debido a su estructura basada en etiquetas, lo que puede impactar el rendimiento del sistema.
+
+Complejidad: Para conjuntos de datos simples, la complejidad inherente a XML puede ser excesiva, lo que puede resultar en un aumento de costos y tiempo en el desarrollo.
+
+Rendimiento: La manipulación y el análisis de archivos XML suelen ser más lentos en comparación con formatos más ligeros, lo que puede afectar la eficiencia de las aplicaciones.
+
+Dificultad en la edición: A pesar de ser legible, editar archivos XML grandes puede ser complicado y propenso a errores si no se cuentan con herramientas adecuadas.
+
+Validación: Aunque XML permite la validación a través de esquemas (XSD), esta característica puede añadir una capa de complejidad adicional al proceso de desarrollo.
+
