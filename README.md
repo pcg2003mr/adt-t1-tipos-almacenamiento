@@ -2,7 +2,7 @@
 
 ### Instrucciones
 - Busca información sobre los distintos tipos de sistemas de almacenamiento propuestos
-- Prepara un breve resumen siguiendo los puntos a tratar propuestos
+- Prepara un breve resumen siguiendo los puntos a tratar propuestos en formato Markdown
 - Prepara una presentación de diapositivas para comunicar a la clase lo aprendido. Se ha de repartir el peso de la presentación oral de forma equitativa.
 
 ### Sistemas de almacenamiento
