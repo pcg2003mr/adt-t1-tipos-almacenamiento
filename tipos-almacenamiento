@@ -20,11 +20,12 @@ El nivel de adopción de XML ha sido significativo desde su creación y ha impac
 
 Finalmente, muchos programas utilizan archivos XML para almacenar configuraciones, gracias a su legibilidad y estructura clara, lo que los hace fáciles de usar y modificar. 
 
-
-TRISTAN
 # Descripción del funcionamiento del sistema de almacenamiento
 Los archivos XML organizan datos en una estructura jerárquica mediante etiquetas, lo que facilita su almacenamiento y procesamiento. Como archivos de texto simples, son compatibles con diversas plataformas y permiten el intercambio de información entre aplicaciones. Su flexibilidad permite crear estructuras personalizadas según las necesidades del sistema. Aunque ocupan más espacio que los formatos binarios, son fácilmente accesibles y legibles. XML es independiente de la plataforma, por lo que puede ser utilizado sin problemas en distintos sistemas. En algunos casos, se almacena en bases de datos optimizadas para manejar documentos XML.
 =======
+
+
+TRISTAN
 Ventajas
 Estructura jerárquica: Facilita la organización de datos complejos en una estructura clara, lo que mejora su manejo y comprensión.
 
