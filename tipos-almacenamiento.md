@@ -82,6 +82,6 @@ Blizzard Entertainment utiliza MongoDB para almacenar datos de los jugadores, co
 
 4. **Plataformas de streaming**
 
-![Netflix](https://about.netflix.com/images/meta/netflix-symbol-black.png)
+![Netflix](https://m.media-amazon.com/images/I/51LGj5--KsL.png)
 
 Netflix emplea Cassandra para almacenar datos de usuarios, como historial de visualización, calificaciones y recomendaciones. También utiliza Elasticsearch para realizar búsquedas de contenido.
