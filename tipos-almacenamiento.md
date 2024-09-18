@@ -39,4 +39,9 @@ Una base de datos NoSQL es la mejor opción para gestionar datos indeterminados,
 + Necesidad de esquemas flexibles que permitan un desarrollo más rápido e iterativo.
 + Realizar consultas complejas y uniones entre tablas.
 + Exigencia de un escalado horizontal mediante la fragmentación de los servidores.
-+ alto nivel de integridad de los datos y transacciones ACID (atomicidad, coherencia, aislamiento y durabilidad).
++ Alto nivel de integridad de los datos y transacciones ACID (atomicidad, coherencia, aislamiento y durabilidad).
+
+### Tipos
+#### Bases de datos clave-valor
+Son las más sencillas de todas y almacenan datos en una organización de pares de clave y valor. Son las que permiten más altas velocidades en la lectura y escritura de datos y se usan principalmente en sistemas de almacenamiento en caché.
+!(https://www.certia.net/wp-content/uploads/2021/03/Clave_Valor.jpg)
