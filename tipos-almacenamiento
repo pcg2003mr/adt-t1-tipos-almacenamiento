@@ -31,3 +31,7 @@ Auto-descripción: Gracias a sus etiquetas, los datos son auto-explicativos, lo 
 Soporte para metadatos: Posibilita la inclusión de metadatos que enriquecen la información, proporcionando contexto adicional y mejorando la calidad de los datos.
 
 Amplio soporte: Existen numerosas bibliotecas y herramientas disponibles en diversos lenguajes de programación, lo que facilita su implementación y uso en diferentes entornos.
+En definitiva,la estructura jerárquica de XML se complementa con su legibilidad, ya que una buena organización facilita la comprensión. Ambas características fomentan la interoperabilidad, 
+permitiendo que diferentes sistemas interpreten los datos de manera efectiva. La auto-descripción de los datos se apoya en esta legibilidad, eliminando la necesidad de documentación adicional
+y facilitando el trabajo en equipo. La capacidad de incluir metadatos refuerza aún más la auto-descripción, proporcionando un contexto adicional que mejora la calidad de los datos.
+Por último, el amplio soporte disponible para XML en múltiples lenguajes asegura que los desarrolladores pueden implementar y mantener sistemas que aprovechen todas estas ventajas de manera eficiente.
