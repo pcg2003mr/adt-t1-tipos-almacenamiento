@@ -68,6 +68,14 @@ Facebook utiliza Cassandra para manejar los datos generados por usuarios como co
 
 2. **Comercio electrónico**
 
-![Comercio](https://brandemia.org/contenido/subidas/2022/11/logo-amazon-2000-actualidad-1024x576.png =x100)
+![Comercio](https://brandemia.org/contenido/subidas/2022/11/logo-amazon-2000-actualidad-1024x576.png)
 
 Utiliza DynamoDB para almacenar información de productos, pedidos, recomendaciones y datos de clientes en tiempo real. Esto les permite ofrecer una experiencia de compra personalizada y escalable.
+
+3. **Juegos en Línea**
+
+![Juego](https://brand.riotgames.com/static/a91000434ed683358004b85c95d43ce0/8a20a/lol-logo.png)
+
+Riot Games emplea Cassandra para manejar la gran cantidad de datos generados por League of Legends, como estadísticas de partidas, perfiles de jugadores y chat.
+
+Blizzard Entertainment utiliza MongoDB para almacenar datos de los jugadores, como personajes, inventario y progreso en el juego.
