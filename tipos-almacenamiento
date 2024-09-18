@@ -19,3 +19,15 @@ El nivel de adopción de XML ha sido significativo desde su creación y ha impac
 - **Sistemas de gestión de bases de datos**: También han adoptado XML, permitiendo almacenar y consultar datos en este formato, lo que añade flexibilidad en la manipulación de información.
 
 Finalmente, muchos programas utilizan archivos XML para almacenar configuraciones, gracias a su legibilidad y estructura clara, lo que los hace fáciles de usar y modificar. 
+Ventajas
+Estructura jerárquica: Facilita la organización de datos complejos en una estructura clara, lo que mejora su manejo y comprensión.
+
+Legibilidad: Su diseño lo hace accesible tanto para humanos como para máquinas, lo que simplifica el mantenimiento y la modificación de la información.
+
+Interoperabilidad: Al ser un estándar ampliamente reconocido, promueve el intercambio de datos entre diferentes sistemas y plataformas de manera fluida.
+
+Auto-descripción: Gracias a sus etiquetas, los datos son auto-explicativos, lo que permite comprender su contenido sin necesidad de documentación adicional.
+
+Soporte para metadatos: Posibilita la inclusión de metadatos que enriquecen la información, proporcionando contexto adicional y mejorando la calidad de los datos.
+
+Amplio soporte: Existen numerosas bibliotecas y herramientas disponibles en diversos lenguajes de programación, lo que facilita su implementación y uso en diferentes entornos.
