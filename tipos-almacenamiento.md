@@ -20,3 +20,16 @@ En lugar de utilizar tablas y relaciones con las bases de datos relacionales, em
 - ***Documentos***: Los documentos almacenan datos en un formato similar a JSON, lo que permite estructuras anidadas y flexibles. Esto significa que puedes tener objetos dentro de objetos, creando estructuras de datos más complejas y representativas de la información real.
 - ***Columnas***: A diferencia de las bases de datos relacionales que organizan los datos en filas y columnas, las bases de datos de columnas invierten esta lógica. Los datos se organizan en columnas, y cada columna puede tener diferentes tipos de datos.
 - ***Gráficos***: Los datos se representan como nodos (entidades) y relaciones (conexiones) entre ellos. Esto permite modelar datos con relaciones complejas y jerárquicas.
+
+### Ventajas e incovenientes
+**Ventajas**
+1. *Escalabilidad*: Gracias a su escalabilidad horizontal frente a la vertical de las relacionales, en lugar de aumentar la potencial del servidor, puedes agregar más servidores para aumentar la carga de trabajo.
+2. *Flexibilidad*: No se limitan a un esquema rígido, permitiendo adaptarse fácilmente a los cambios en datos y nuevos tipos de información.
+3. *Rendimiento optimizado*: Al diseñarse para un tipo específico de trabajo, pueden ofrecer un rendimiento superior en ciertas operaciones, como lecturas y escrituras de alta velocidad.
+4.  *Economía*: No se necesitan servidores con gran cantidad de recursos para operar.
+**Desventajas**
+1. *Madurez*: Algunas bases de datos NoSQL aún están en desarrollo y pueden carecer de algunas características o funcionalidades.
+2. *Falta de estándares*: : No se tiene un criterio plenamente definido, variando el lenguaje según el tipo de base de datos que se vaya a utilizar.
+3. *Complejidad*: La gestión es más compleja que en una base de datos relacional.
+4. *Herramientas GUI:*  La mayoría de las bases de datos NoSQL no contienen una interfaz gráfica. Requiere conocimiento especial para poder ejecutarlas.
+ 
