@@ -50,3 +50,11 @@ Son las más sencillas de todas y almacenan datos en una organización de pares 
 Las bases de datos de documentos almacenan datos en colecciones, siendo los elementos de cada una de esas colecciones documentos que contienen pares clave/valor. Además de también tener un identificador único para cada documento, los campos de los que consta este documento sí son transparentes para el sistema de administración.
 
 ![Documentos](https://www.certia.net/wp-content/uploads/2021/03/Documento-JSON.jpg)
+#### Bases de datos de columnas anchas
+Están pensadas para requerir menos consultas a la hora de recuperar datos puesto que guardan todos los datos relacionados en “grupos”, teniendo cada familia de columnas un conjunto de columnas con una relación lógica entre ellas.
+
+![Columnas](https://www.certia.net/wp-content/uploads/2021/03/Familia-columnas.jpg)
+#### Bases de datos orientadas a grafos
+Están compuestas por documentos que se relacionan entre sí y que permiten representar relaciones complejas entre los datos y así realizar consultas eficientes a través de los nodos y aristas analizando sus relaciones.
+
+![Grafos](https://www.certia.net/wp-content/uploads/2021/03/Grafos.png)
