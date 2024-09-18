@@ -68,6 +68,6 @@ Facebook utiliza Cassandra para manejar los datos generados por usuarios como co
 
 2. **Comercio electrónico**
 
-![Comercio](https://brandemia.org/contenido/subidas/2022/11/logo-amazon-2000-actualidad-1024x576.png){ width: 100px; }
+![Comercio](https://brandemia.org/contenido/subidas/2022/11/logo-amazon-2000-actualidad-1024x576.png =x100)
 
 Utiliza DynamoDB para almacenar información de productos, pedidos, recomendaciones y datos de clientes en tiempo real. Esto les permite ofrecer una experiencia de compra personalizada y escalable.
