@@ -33,4 +33,10 @@ En lugar de utilizar tablas y relaciones con las bases de datos relacionales, em
 2. *Falta de estándares*: : No se tiene un criterio plenamente definido, variando el lenguaje según el tipo de base de datos que se vaya a utilizar.
 3. *Complejidad*: La gestión es más compleja que en una base de datos relacional.
 4. *Herramientas GUI:*  La mayoría de las bases de datos NoSQL no contienen una interfaz gráfica. Requiere conocimiento especial para poder ejecutarlas.
- 
+
+### Usos
+Una base de datos NoSQL es la mejor opción para gestionar datos indeterminados, no relacionados o que cambian rápidamente. Pueden usarse para aplicaciones que cumplan:
++ Necesidad de esquemas flexibles que permitan un desarrollo más rápido e iterativo.
++ Realizar consultas complejas y uniones entre tablas.
++ Exigencia de un escalado horizontal mediante la fragmentación de los servidores.
++ alto nivel de integridad de los datos y transacciones ACID (atomicidad, coherencia, aislamiento y durabilidad).
