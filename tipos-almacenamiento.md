@@ -15,3 +15,8 @@ Estas son las bases de datos más usadas, donde podemos ver a MongoDB en el quin
 
 ### Descripción del funcionamiento del sistema de almacenamiento
 En lugar de utilizar tablas y relaciones con las bases de datos relacionales, emplean modelos de datos más flexibles como:
+
+- ***Clave-Valor***: Cada dato se almacena como un par único de clave y valor. Por ejemplo una simple lista de compras donde cada ítem (clave) tiene asociado un valor (cantidad).
+- ***Documentos***: Los documentos almacenan datos en un formato similar a JSON, lo que permite estructuras anidadas y flexibles. Esto significa que puedes tener objetos dentro de objetos, creando estructuras de datos más complejas y representativas de la información real.
+- ***Columnas***: A diferencia de las bases de datos relacionales que organizan los datos en filas y columnas, las bases de datos de columnas invierten esta lógica. Los datos se organizan en columnas, y cada columna puede tener diferentes tipos de datos.
+- ***Gráficos***: Los datos se representan como nodos (entidades) y relaciones (conexiones) entre ellos. Esto permite modelar datos con relaciones complejas y jerárquicas.
