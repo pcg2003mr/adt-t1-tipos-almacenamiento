@@ -79,3 +79,9 @@ Utiliza DynamoDB para almacenar información de productos, pedidos, recomendacio
 Riot Games emplea Cassandra para manejar la gran cantidad de datos generados por League of Legends, como estadísticas de partidas, perfiles de jugadores y chat.
 
 Blizzard Entertainment utiliza MongoDB para almacenar datos de los jugadores, como personajes, inventario y progreso en el juego.
+
+4. **Plataformas de streaming**
+
+![Netflix](https://about.netflix.com/images/meta/netflix-symbol-black.png)
+
+Netflix emplea Cassandra para almacenar datos de usuarios, como historial de visualización, calificaciones y recomendaciones. También utiliza Elasticsearch para realizar búsquedas de contenido.
