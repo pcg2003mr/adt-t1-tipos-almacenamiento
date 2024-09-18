@@ -46,3 +46,7 @@ Una base de datos NoSQL es la mejor opción para gestionar datos indeterminados,
 Son las más sencillas de todas y almacenan datos en una organización de pares de clave y valor. Son las que permiten más altas velocidades en la lectura y escritura de datos y se usan principalmente en sistemas de almacenamiento en caché.
 
 ![Clave-valor](https://www.certia.net/wp-content/uploads/2021/03/Clave_Valor.jpg)
+#### Bases de datos de documentos
+Las bases de datos de documentos almacenan datos en colecciones, siendo los elementos de cada una de esas colecciones documentos que contienen pares clave/valor. Además de también tener un identificador único para cada documento, los campos de los que consta este documento sí son transparentes para el sistema de administración.
+
+![Documentos](https://www.certia.net/wp-content/uploads/2021/03/Documento-JSON.jpg)
