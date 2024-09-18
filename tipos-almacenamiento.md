@@ -27,6 +27,7 @@ En lugar de utilizar tablas y relaciones con las bases de datos relacionales, em
 2. *Flexibilidad*: No se limitan a un esquema rígido, permitiendo adaptarse fácilmente a los cambios en datos y nuevos tipos de información.
 3. *Rendimiento optimizado*: Al diseñarse para un tipo específico de trabajo, pueden ofrecer un rendimiento superior en ciertas operaciones, como lecturas y escrituras de alta velocidad.
 4.  *Economía*: No se necesitan servidores con gran cantidad de recursos para operar.
+
 **Desventajas**
 1. *Madurez*: Algunas bases de datos NoSQL aún están en desarrollo y pueden carecer de algunas características o funcionalidades.
 2. *Falta de estándares*: : No se tiene un criterio plenamente definido, variando el lenguaje según el tipo de base de datos que se vaya a utilizar.
