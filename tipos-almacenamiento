@@ -74,49 +74,30 @@ Finalmente, el amplio soporte disponible para XML en múltiples lenguajes asegur
 ________________________________________
        Tristan Marín López
 ________________________________________
-Inconvenientes
-Tamaño del archivo:
-Los archivos XML tienden a ser más voluminosos que otros formatos, como JSON, debido a su estructura basada en etiquetas, lo que puede impactar el rendimiento del sistema.
+Ventajas de XML:
+Estructura jerárquica: Organiza datos complejos de manera clara, mejorando su manejo.
+Legibilidad: Accesible tanto para humanos como para máquinas, simplificando su mantenimiento.
+Interoperabilidad: Facilita el intercambio de datos entre sistemas y plataformas.
+Auto-descripción: Las etiquetas hacen que los datos sean autoexplicativos, evitando documentación adicional.
+Soporte para metadatos: Permite agregar contexto a los datos, mejorando su calidad.
+Amplio soporte: Numerosas herramientas y bibliotecas disponibles en diferentes lenguajes.
 
-Complejidad:
-Para conjuntos de datos simples, la complejidad inherente a XML puede ser excesiva, resultando en un aumento de costos y tiempo en el desarrollo.
+Inconvenientes de XML:
+Tamaño del archivo: Tienden a ser más grandes que otros formatos, como JSON, lo que puede afectar el rendimiento.
+Complejidad: Puede ser excesiva para datos simples, incrementando costos y tiempos de desarrollo.
+Rendimiento: Manipular archivos XML es más lento comparado con formatos más ligeros.
+Dificultad en la edición: Editar archivos grandes sin herramientas adecuadas puede ser complicado y propenso a errores.
+Validación: La validación mediante esquemas puede añadir complejidad.
 
-Rendimiento:
-La manipulación y el análisis de archivos XML suelen ser más lentos en comparación con formatos más ligeros, lo que puede afectar la eficiencia de las aplicaciones.
-
-Dificultad en la edición:
-A pesar de ser legible, editar archivos XML grandes puede ser complicado y propenso a errores si no se cuentan con herramientas adecuadas.
-
-Validación:
-Aunque XML permite la validación a través de esquemas (XSD), esta característica puede añadir una capa de complejidad adicional al proceso de desarrollo.
-
-Relación entre Inconvenientes
-Los inconvenientes de usar XML están interrelacionados. El tamaño del archivo y la complejidad pueden contribuir a un rendimiento más lento, afectando la eficiencia al trabajar con los datos. Además, la dificultad en la edición de archivos grandes puede complicar aún más la validación, ya que cualquier error puede ser difícil de detectar y corregir.
-
-Usos de XML como Sistema de Almacenamiento
-Almacenamiento de Configuraciones:
-XML es ideal para guardar configuraciones de aplicaciones y servidores. Su estructura jerárquica facilita la organización y comprensión de estos datos.
-
-Intercambio de Datos entre Sistemas:
-Gracias a su interoperabilidad, XML es usado para el intercambio de datos entre sistemas heterogéneos. Es común en servicios web como SOAP y APIs que requieren un formato estándar y auto-descriptivo.
-
-Almacenamiento en Bases de Datos:
-XML se utiliza en bases de datos relacionales (como Oracle y SQL Server) o bases de datos nativas de XML (BaseX, eXist) para almacenar datos semi-estructurados, permitiendo mayor flexibilidad en comparación con esquemas rígidos de bases de datos tradicionales.
-
-Documentos Estructurados:
-XML se emplea en la publicación de documentos como libros electrónicos, artículos o archivos DOCX, permitiendo una estructura clara y cambios de formato sin afectar el contenido.
-
-Aplicaciones Web:
-XML se usa en aplicaciones web para almacenar y transportar datos. Tecnologías como XSLT permiten transformar datos XML en HTML para su presentación. RSS y Atom también se basan en XML para la sindicación de contenidos.
-
-Aplicaciones Empresariales:
-Muchas empresas utilizan XML para gestionar grandes volúmenes de datos en sistemas ERP y CRM. Además, es empleado en la facturación electrónica y catálogos de productos.
-
-Gráficos Vectoriales:
-SVG, basado en XML, permite almacenar gráficos bidimensionales escalables, utilizados en logotipos, íconos y diagramas para aplicaciones web.
-
-Estandarización por Industrias:
-XML ha sido adoptado por sectores como el financiero (FpML) y la salud (HL7) para estandarizar el intercambio de datos entre organizaciones.
+Usos de XML:
+Almacenamiento de configuraciones: Ideal para guardar configuraciones de aplicaciones y servidores.
+Intercambio de datos: Usado en servicios web SOAP (Simple Object Access Protocol) y APIs.
+Almacenamiento en bases de datos: Utilizado en bases de datos relacionales y nativas de XML.
+Documentos estructurados: En la publicación de libros electrónicos y documentos DOCX (Document XML).
+Aplicaciones web: Almacena y transporta datos en tecnologías como XSLT (Extensible Stylesheet Language Transformations), RSS (Really Simple Syndication) y Atom.
+Aplicaciones empresariales: Gestiona datos en sistemas ERP (Enterprise Resource Planning), CRM (Customer Relationship Management) y facturación electrónica.
+Gráficos vectoriales: SVG (Scalable Vector Graphics), basado en XML, almacena gráficos bidimensionales escalables.
+Estandarización por industrias: Adoptado en sectores como el financiero FpML (Financial products Markup Language) y la salud HL7 (Health Level 7)
 
 
 ____________________________________
