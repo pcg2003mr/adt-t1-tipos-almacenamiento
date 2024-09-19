@@ -26,59 +26,28 @@ Los archivos XML organizan datos en una estructura jerárquica mediante etiqueta
 
 
 TRISTAN
-Ventajas
-Estructura jerárquica: Facilita la organización de datos complejos en una estructura clara, lo que mejora su manejo y comprensión.
 
-Legibilidad: Su diseño lo hace accesible tanto para humanos como para máquinas, lo que simplifica el mantenimiento y la modificación de la información.
+Ventajas de XML:
+Estructura jerárquica: Organiza datos complejos de manera clara, mejorando su manejo.
+Legibilidad: Accesible tanto para humanos como para máquinas, simplificando su mantenimiento.
+Interoperabilidad: Facilita el intercambio de datos entre sistemas y plataformas.
+Auto-descripción: Las etiquetas hacen que los datos sean autoexplicativos, evitando documentación adicional.
+Soporte para metadatos: Permite agregar contexto a los datos, mejorando su calidad.
+Amplio soporte: Numerosas herramientas y bibliotecas disponibles en diferentes lenguajes.
 
-Interoperabilidad: Al ser un estándar ampliamente reconocido, promueve el intercambio de datos entre diferentes sistemas y plataformas de manera fluida.
+Inconvenientes de XML:
+Tamaño del archivo: Tienden a ser más grandes que otros formatos, como JSON, lo que puede afectar el rendimiento.
+Complejidad: Puede ser excesiva para datos simples, incrementando costos y tiempos de desarrollo.
+Rendimiento: Manipular archivos XML es más lento comparado con formatos más ligeros.
+Dificultad en la edición: Editar archivos grandes sin herramientas adecuadas puede ser complicado y propenso a errores.
+Validación: La validación mediante esquemas puede añadir complejidad.
 
-Auto-descripción: Gracias a sus etiquetas, los datos son auto-explicativos, lo que permite comprender su contenido sin necesidad de documentación adicional.
-
-Soporte para metadatos: Posibilita la inclusión de metadatos que enriquecen la información, proporcionando contexto adicional y mejorando la calidad de los datos.
-
-Amplio soporte: Existen numerosas bibliotecas y herramientas disponibles en diversos lenguajes de programación, lo que facilita su implementación y uso en diferentes entornos.
-En definitiva,la estructura jerárquica de XML se complementa con su legibilidad, ya que una buena organización facilita la comprensión. Ambas características fomentan la interoperabilidad, 
-permitiendo que diferentes sistemas interpreten los datos de manera efectiva. La auto-descripción de los datos se apoya en esta legibilidad, eliminando la necesidad de documentación adicional
-y facilitando el trabajo en equipo. La capacidad de incluir metadatos refuerza aún más la auto-descripción, proporcionando un contexto adicional que mejora la calidad de los datos.
-Por último, el amplio soporte disponible para XML en múltiples lenguajes asegura que los desarrolladores pueden implementar y mantener sistemas que aprovechen todas estas ventajas de manera eficiente.
-
-Inconvenientes:
-Tamaño del archivo: Los archivos XML tienden a ser más voluminosos que otros formatos, como JSON, debido a su estructura basada en etiquetas, lo que puede impactar el rendimiento del sistema.
-
-Complejidad: Para conjuntos de datos simples, la complejidad inherente a XML puede ser excesiva, lo que puede resultar en un aumento de costos y tiempo en el desarrollo.
-
-Rendimiento: La manipulación y el análisis de archivos XML suelen ser más lentos en comparación con formatos más ligeros, lo que puede afectar la eficiencia de las aplicaciones.
-
-Dificultad en la edición: A pesar de ser legible, editar archivos XML grandes puede ser complicado y propenso a errores si no se cuentan con herramientas adecuadas.
-
-Validación: Aunque XML permite la validación a través de esquemas (XSD), esta característica puede añadir una capa de complejidad adicional al proceso de desarrollo.
-
-Los inconvenientes de usar XML están interrelacionados; por ejemplo, el tamaño del archivo y la complejidad pueden contribuir a un rendimiento más lento,
-lo que afecta la eficiencia general al trabajar con datos. Además, la dificultad en la edición de archivos grandes puede complicar aún más la validación, 
-ya que cualquier error puede ser difícil de detectar y corregir.
-Usos de XML como sistema de almacenamiento
-
-1. Almacenamiento de Configuraciones
-XML es ideal para guardar configuraciones de aplicaciones y servidores. Su estructura jerárquica facilita la organización y comprensión de estos datos.
-
-2. Intercambio de Datos entre Sistemas
-Gracias a su interoperabilidad, XML es usado para el intercambio de datos entre sistemas heterogéneos. Es común en servicios web como SOAP y APIs que requieren un formato estándar y auto-descriptivo.
-
-3. Almacenamiento en Bases de Datos
-Se utiliza en bases de datos relacionales (Oracle, SQL Server) o bases de datos nativas de XML (BaseX, eXist) para almacenar datos semiestructurados. Permite flexibilidad frente a esquemas rígidos de bases de datos tradicionales.
-
-4. Documentos Estructurados
-XML se emplea en la publicación de documentos como libros electrónicos, artículos o archivos DOCX, permitiendo una estructura clara y cambios de formato sin afectar el contenido.
-
-5. Aplicaciones Web
-XML se usa en aplicaciones web para almacenar y transportar datos. Tecnologías como XSLT permiten transformar datos XML en HTML para su presentación. RSS y Atom también se basan en XML para sindicación de contenidos.
-
-6. Aplicaciones Empresariales
-Empresas usan XML para gestionar grandes volúmenes de datos en sistemas ERP y CRM. Además, es empleado en la facturación electrónica y catálogos de productos.
-
-7. Gráficos Vectoriales
-SVG, basado en XML, permite almacenar gráficos bidimensionales escalables, utilizados en logotipos, iconos y diagramas para aplicaciones web.
-
-8. Estandarización por Industrias
-XML es adoptado por sectores como el financiero (FpML) y la salud (HL7) para estandarizar el intercambio de datos entre organizaciones.
+Usos de XML:
+Almacenamiento de configuraciones: Ideal para guardar configuraciones de aplicaciones y servidores.
+Intercambio de datos: Usado en servicios web (SOAP) y APIs.
+Almacenamiento en bases de datos: Utilizado en bases de datos relacionales y nativas de XML.
+Documentos estructurados: En la publicación de libros electrónicos y documentos (DOCX).
+Aplicaciones web: Almacena y transporta datos en tecnologías como XSLT, RSS y Atom.
+Aplicaciones empresariales: Gestiona datos en sistemas ERP, CRM y facturación electrónica.
+Gráficos vectoriales: SVG, basado en XML, almacena gráficos bidimensionales escalables.
+Estandarización por industrias: Adoptado en sectores como el financiero (FpML) y la salud (HL7).
