@@ -1,10 +1,30 @@
 _________________________________________
-      Adrian Fernandez Rodriguez
+      Adrián Fernández Rodríguez
 _________________________________________
+Origen:
+- Fecha de creación: XML (Lenguaje de Marcado Extensible) apareció a finales de los años 90, aunque hasta 1998 no fue recomendado oficialmente por el W3C.
+- Motivación: Se buscaba un formato para utilizarlo fácilmente en la web y que permitiera la operabilidad entre distintos sistemas y aplicaciones.
+
+Popularización:
+- Uso en la web: XML se adoptó rápidamente en aplicaciones y servicios web, especialmente con el crecimiento de APIs.
+- Soporte en herramientas: La aparición de herramientas de software y bibliotecas, simplificaron el trabajo con XML.
+- Aplicaciones: Se ha implementado en múltiples contextos, desde configuraciones de software hasta el almacenamiento de datos en bases de datos.
+
+Nivel de Adopción:
+El nivel de adopción de archivos XML sigue siendo significativo, aunque se encuentra en declive en comparación con otros formatos más recientes como JSON. 
+XML es ampliamente utilizado en sectores como el financiero, los sistemas heredados, y los servicios web, especialmente para intercambiar información entre sistemas heterogéneos. 
+Sin embargo, JSON ha ganado popularidad debido a su simplicidad y menor consumo de recursos. XML sigue siendo relevante en aplicaciones que requieren validación estricta o una estructura de datos jerárquica robusta.
+
+Descripción del funcionamiento del sistema de almacenamiento:
+Los archivos XML organizan datos en una estructura jerárquica mediante etiquetas, lo que facilita su almacenamiento y procesamiento. 
+Como archivos de texto simples, son compatibles con diversas plataformas y permiten el intercambio de información entre aplicaciones. 
+Su flexibilidad permite crear estructuras personalizadas según las necesidades del sistema. 
+Ocupan más espacio que los formatos binarios, son fácilmente accesibles y legibles. 
+XML es independiente de la plataforma, por lo que puede ser utilizado sin problemas en distintos sistemas.
 
 
 ________________________________________
-       Tristan Marín López
+       Tristán Marín López
 ________________________________________
 Ventajas de XML:
 Estructura jerárquica: Organiza datos complejos de manera clara, mejorando su manejo.
