@@ -1,53 +1,175 @@
-# Tipos de almacenamiento
-XML (Lenguaje de Marcado Extensible) apareció a finales de los años 90. Fue creado por el World Wide Web Consortium (W3C) como una versión simplificada de SGML (Lenguaje de Marcado General Estandarizado), que era más complicado y pesado.
+_________________________________________
+      Adrian Fernandez Rodriguez
+_________________________________________
+XML (Lenguaje de Marcado Extensible)
+Origen de XML
+Fecha de creación:
+El XML apareció a finales de los años 90 y fue recomendado oficialmente por el World Wide Web Consortium (W3C) en febrero de 1998. Se creó como una versión simplificada del SGML (Lenguaje de Marcado General Estandarizado), un formato más complicado y pesado.
 
-# Origen
-- **Fecha de creación**: El W3C recomendó oficialmente XML en febrero de 1998.
-- **Motivación**: Se buscaba un formato que pudiera utilizarse fácilmente en la web y que permitiera la interoperabilidad entre distintos sistemas y aplicaciones.
+Motivación:
+El objetivo principal era desarrollar un formato fácilmente utilizable en la web que facilitara la interoperabilidad entre diferentes sistemas y aplicaciones.
 
-# Popularización
-- **Uso en la web**: XML se adoptó rápidamente en aplicaciones y servicios web, especialmente con el crecimiento de APIs y el intercambio de datos entre plataformas diferentes.
-- **Soporte en herramientas**: La aparición de herramientas de software y bibliotecas que simplificaron el trabajo con XML hizo que su uso fuera más accesible.
-- **Aplicaciones**: Se ha implementado en múltiples contextos, desde configuraciones de software hasta el almacenamiento de datos en bases de datos, y también en estándares como SOAP para servicios web.
+Popularización
+Uso en la web:
+XML se adoptó rápidamente en aplicaciones y servicios web, sobre todo con el crecimiento de las APIs y la necesidad de intercambiar datos entre plataformas diferentes.
 
-# Nivel de Adopción
-El nivel de adopción de XML ha sido significativo desde su creación y ha impactado diversos sectores. Aspectos clave de su adopción:
+Soporte en herramientas:
+La aparición de herramientas de software y bibliotecas que simplificaron el trabajo con XML hizo que su uso se popularizara y se volviera más accesible.
 
-- **Industria tecnológica**: XML se ha establecido como un estándar para el intercambio de datos entre aplicaciones, siendo especialmente relevante en la integración de sistemas.
-- **Desarrollo de APIs**: Muchas APIs y servicios web utilizan XML como formato para la transmisión de datos, lo que facilita la interoperabilidad entre diferentes plataformas.
-- **Documentación y publicaciones**: XML se emplea en la producción de documentos técnicos y publicaciones electrónicas, como es el caso de estándares como DocBook y TEI.
-- **Sistemas de gestión de bases de datos**: También han adoptado XML, permitiendo almacenar y consultar datos en este formato, lo que añade flexibilidad en la manipulación de información.
+Aplicaciones:
+XML ha sido implementado en múltiples contextos, como configuraciones de software, almacenamiento de datos en bases de datos y estándares como SOAP para servicios web.
 
-Finalmente, muchos programas utilizan archivos XML para almacenar configuraciones, gracias a su legibilidad y estructura clara, lo que los hace fáciles de usar y modificar. 
+Nivel de Adopción
+El nivel de adopción de XML ha sido notable en diferentes sectores, destacando:
 
-# Descripción del funcionamiento del sistema de almacenamiento
-Los archivos XML organizan datos en una estructura jerárquica mediante etiquetas, lo que facilita su almacenamiento y procesamiento. Como archivos de texto simples, son compatibles con diversas plataformas y permiten el intercambio de información entre aplicaciones. Su flexibilidad permite crear estructuras personalizadas según las necesidades del sistema. Aunque ocupan más espacio que los formatos binarios, son fácilmente accesibles y legibles. XML es independiente de la plataforma, por lo que puede ser utilizado sin problemas en distintos sistemas. En algunos casos, se almacena en bases de datos optimizadas para manejar documentos XML.
-=======
+Industria tecnológica:
+XML se ha convertido en un estándar para el intercambio de datos entre aplicaciones, siendo especialmente relevante en la integración de sistemas.
+
+Desarrollo de APIs:
+Muchas APIs y servicios web utilizan XML como formato para la transmisión de datos, permitiendo la interoperabilidad entre plataformas distintas.
+
+Documentación y publicaciones:
+Se utiliza en la producción de documentos técnicos y publicaciones electrónicas, como es el caso de estándares como DocBook y TEI.
+
+Sistemas de gestión de bases de datos:
+Bases de datos también han adoptado XML, permitiendo almacenar y consultar datos en este formato, ofreciendo flexibilidad en la manipulación de información.
+
+Uso en Programas
+Muchos programas emplean archivos XML para almacenar configuraciones, aprovechando su legibilidad y estructura clara, lo que facilita su uso y modificación.
+
+Descripción del Funcionamiento del Sistema de Almacenamiento XML
+Los archivos XML organizan datos en una estructura jerárquica a través de etiquetas, lo que facilita su almacenamiento y procesamiento. Al ser archivos de texto simples, son compatibles con diversas plataformas y permiten el intercambio de información entre aplicaciones.
+
+Aunque ocupan más espacio que los formatos binarios, son fácilmente accesibles y legibles. XML es independiente de la plataforma, lo que significa que puede ser utilizado sin problemas en sistemas diferentes. En algunos casos, se almacenan en bases de datos optimizadas para manejar documentos XML.
+
+Ventajas y Desventajas de XML
+Ventajas
+Estructura jerárquica:
+Facilita la organización de datos complejos en una estructura clara, lo que mejora su manejo y comprensión.
+
+Legibilidad:
+Su diseño lo hace accesible tanto para humanos como para máquinas, lo que simplifica el mantenimiento y la modificación de la información.
+
+Interoperabilidad:
+Al ser un estándar ampliamente reconocido, promueve el intercambio de datos entre diferentes sistemas y plataformas de manera fluida.
+
+Auto-descripción:
+Gracias a sus etiquetas, los datos son auto-explicativos, lo que permite comprender su contenido sin necesidad de documentación adicional.
+
+Soporte para metadatos:
+Posibilita la inclusión de metadatos que enriquecen la información, proporcionando contexto adicional y mejorando la calidad de los datos.
+
+Amplio soporte:
+Existen numerosas bibliotecas y herramientas disponibles en diversos lenguajes de programación, lo que facilita su implementación y uso en diferentes entornos.
+
+Relación entre Ventajas
+La estructura jerárquica de XML se complementa con su legibilidad, ya que una buena organización facilita la comprensión. Ambas características fomentan la interoperabilidad, permitiendo que diferentes sistemas interpreten los datos de manera efectiva.
+
+La auto-descripción de los datos se apoya en esta legibilidad, eliminando la necesidad de documentación adicional y facilitando el trabajo en equipo. La capacidad de incluir metadatos refuerza aún más la auto-descripción, proporcionando un contexto adicional que mejora la calidad de los datos.
+
+Finalmente, el amplio soporte disponible para XML en múltiples lenguajes asegura que los desarrolladores puedan implementar y mantener sistemas que aprovechen todas estas ventajas de manera eficiente.
 
 
-TRISTAN
 
-Ventajas de XML:
-Estructura jerárquica: Organiza datos complejos de manera clara, mejorando su manejo.
-Legibilidad: Accesible tanto para humanos como para máquinas, simplificando su mantenimiento.
-Interoperabilidad: Facilita el intercambio de datos entre sistemas y plataformas.
-Auto-descripción: Las etiquetas hacen que los datos sean autoexplicativos, evitando documentación adicional.
-Soporte para metadatos: Permite agregar contexto a los datos, mejorando su calidad.
-Amplio soporte: Numerosas herramientas y bibliotecas disponibles en diferentes lenguajes.
+________________________________________
+       Tristan Marín López
+________________________________________
+Inconvenientes
+Tamaño del archivo:
+Los archivos XML tienden a ser más voluminosos que otros formatos, como JSON, debido a su estructura basada en etiquetas, lo que puede impactar el rendimiento del sistema.
 
-Inconvenientes de XML:
-Tamaño del archivo: Tienden a ser más grandes que otros formatos, como JSON, lo que puede afectar el rendimiento.
-Complejidad: Puede ser excesiva para datos simples, incrementando costos y tiempos de desarrollo.
-Rendimiento: Manipular archivos XML es más lento comparado con formatos más ligeros.
-Dificultad en la edición: Editar archivos grandes sin herramientas adecuadas puede ser complicado y propenso a errores.
-Validación: La validación mediante esquemas puede añadir complejidad.
+Complejidad:
+Para conjuntos de datos simples, la complejidad inherente a XML puede ser excesiva, resultando en un aumento de costos y tiempo en el desarrollo.
 
-Usos de XML:
-Almacenamiento de configuraciones: Ideal para guardar configuraciones de aplicaciones y servidores.
-Intercambio de datos: Usado en servicios web (SOAP) y APIs.
-Almacenamiento en bases de datos: Utilizado en bases de datos relacionales y nativas de XML.
-Documentos estructurados: En la publicación de libros electrónicos y documentos (DOCX).
-Aplicaciones web: Almacena y transporta datos en tecnologías como XSLT, RSS y Atom.
-Aplicaciones empresariales: Gestiona datos en sistemas ERP, CRM y facturación electrónica.
-Gráficos vectoriales: SVG, basado en XML, almacena gráficos bidimensionales escalables.
-Estandarización por industrias: Adoptado en sectores como el financiero (FpML) y la salud (HL7).
+Rendimiento:
+La manipulación y el análisis de archivos XML suelen ser más lentos en comparación con formatos más ligeros, lo que puede afectar la eficiencia de las aplicaciones.
+
+Dificultad en la edición:
+A pesar de ser legible, editar archivos XML grandes puede ser complicado y propenso a errores si no se cuentan con herramientas adecuadas.
+
+Validación:
+Aunque XML permite la validación a través de esquemas (XSD), esta característica puede añadir una capa de complejidad adicional al proceso de desarrollo.
+
+Relación entre Inconvenientes
+Los inconvenientes de usar XML están interrelacionados. El tamaño del archivo y la complejidad pueden contribuir a un rendimiento más lento, afectando la eficiencia al trabajar con los datos. Además, la dificultad en la edición de archivos grandes puede complicar aún más la validación, ya que cualquier error puede ser difícil de detectar y corregir.
+
+Usos de XML como Sistema de Almacenamiento
+Almacenamiento de Configuraciones:
+XML es ideal para guardar configuraciones de aplicaciones y servidores. Su estructura jerárquica facilita la organización y comprensión de estos datos.
+
+Intercambio de Datos entre Sistemas:
+Gracias a su interoperabilidad, XML es usado para el intercambio de datos entre sistemas heterogéneos. Es común en servicios web como SOAP y APIs que requieren un formato estándar y auto-descriptivo.
+
+Almacenamiento en Bases de Datos:
+XML se utiliza en bases de datos relacionales (como Oracle y SQL Server) o bases de datos nativas de XML (BaseX, eXist) para almacenar datos semi-estructurados, permitiendo mayor flexibilidad en comparación con esquemas rígidos de bases de datos tradicionales.
+
+Documentos Estructurados:
+XML se emplea en la publicación de documentos como libros electrónicos, artículos o archivos DOCX, permitiendo una estructura clara y cambios de formato sin afectar el contenido.
+
+Aplicaciones Web:
+XML se usa en aplicaciones web para almacenar y transportar datos. Tecnologías como XSLT permiten transformar datos XML en HTML para su presentación. RSS y Atom también se basan en XML para la sindicación de contenidos.
+
+Aplicaciones Empresariales:
+Muchas empresas utilizan XML para gestionar grandes volúmenes de datos en sistemas ERP y CRM. Además, es empleado en la facturación electrónica y catálogos de productos.
+
+Gráficos Vectoriales:
+SVG, basado en XML, permite almacenar gráficos bidimensionales escalables, utilizados en logotipos, íconos y diagramas para aplicaciones web.
+
+Estandarización por Industrias:
+XML ha sido adoptado por sectores como el financiero (FpML) y la salud (HL7) para estandarizar el intercambio de datos entre organizaciones.
+
+
+____________________________________
+      Pablo González Ruiz
+____________________________________
+Tipos de Archivos XML
+XML básico:
+Estructura de datos en formato jerárquico con etiquetas personalizadas, comúnmente utilizado para almacenar y transportar datos.
+
+XHTML (eXtensible HyperText Markup Language):
+Variante de HTML que es compatible con XML, usada para definir documentos web que siguen normas estrictas de XML.
+
+RSS/Atom:
+Formatos XML utilizados para feeds de noticias o sindicación de contenido web.
+
+SVG (Scalable Vector Graphics):
+Formato XML para gráficos vectoriales bidimensionales que se pueden incrustar en páginas web.
+
+SOAP (Simple Object Access Protocol):
+Protocolo basado en XML para el intercambio de información en redes, particularmente en servicios web.
+
+XSLT (eXtensible Stylesheet Language Transformations):
+Usado para transformar documentos XML en otros formatos, como HTML o texto plano.
+
+MathML (Mathematical Markup Language):
+XML utilizado para describir notaciones matemáticas.
+
+Bases de Datos para Almacenar XML
+Bases de datos relacionales con soporte XML:
+Bases de datos como PostgreSQL, SQL Server y Oracle permiten almacenar y consultar datos en formato XML.
+
+Bases de datos NoSQL orientadas a documentos:
+MongoDB y CouchDB permiten almacenar datos semi-estructurados y documentos XML.
+
+Bases de datos nativas XML:
+Bases de datos especializadas como BaseX y eXist-db están diseñadas específicamente para almacenar y consultar grandes volúmenes de datos XML.
+
+Herramientas y Tecnologías Asociadas
+XPath:
+Lenguaje utilizado para navegar por documentos XML.
+
+XQuery:
+Lenguaje de consulta avanzado para documentos XML, usado para realizar consultas complejas.
+
+XML Schema:
+Define la estructura y los tipos de datos permitidos en un documento XML, proporcionando validación adicional.
+
+Casos de Uso Reales de XML
+Bancos y Seguros:
+Las empresas del sector financiero utilizan XML para intercambiar información entre sistemas, como los datos necesarios para procesar pagos.
+
+Actualizaciones Automáticas de Noticias:
+Los archivos RSS permiten a los usuarios recibir automáticamente las últimas noticias o actualizaciones de contenido sin tener que visitar constantemente el sitio web.
+
+Gráficos Escalables:
+El formato SVG, basado en XML, permite que los gráficos de los sitios web sean escalables y se adapten a diferentes tamaños de pantalla sin perder calidad.
