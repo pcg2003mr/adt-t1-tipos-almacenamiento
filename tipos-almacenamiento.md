@@ -1,4 +1,5 @@
 # Tipos de almacenamiento
+
 ## TAREA 1 | TEMA DEL GRUPO | BASE DE DATOS DE OBJETOS
  
 ### Autores: 
@@ -86,3 +87,4 @@ Tienda de material deportivo: En una base de datos de objetos, cada artículo se
 Sistema de información geográfica: Los datos geográficos pueden representarse como objetos. Por ejemplo, un objeto “Ciudad” con atributos como “nombre, población y ubicación”, donde “ubicación” puede ser un objeto geográfico. Las bases de datos orientadas a objetos permiten almacenar y manipular estos datos espaciales de manera más directa que en una base de datos relacional. 
 
 Gestión de contenidos multimedia: Este caso puede abordarse de diversas maneras, similar a los anteriores. Por ejemplo, un objeto “Video” podría tener
+
