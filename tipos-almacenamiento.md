@@ -2,8 +2,22 @@
 
 ## Titulo: Bases de Datos Relacionales
 
+### [Autores: Paula / Iván / Leire]
+
 ### [¿Qué es una base de datos relacional?]. 
 Una base de datos relacional (RDB) es una forma de estructurar información en tablas, filas y columnas. Un RDB tiene la capacidad de establecer vínculos (o relaciones) entre información mediante la unión de tablas, lo que facilita la comprensión y la obtención de estadísticas sobre la relación entre varios datos. 
+
+### [Diferencia entre bases de datos relacionales y no relacionales:] 
+
+La principal diferencia entre las bases de datos relacionales y no relacionales (bases de datos NoSQL) es la forma en que se almacenan y organizan los datos. Las bases de datos no relacionales no almacenan datos de manera tabular y basada en reglas. En su lugar, almacenan datos como archivos individuales y no conectados, y se pueden usar para tipos de datos complejos y no estructurados, como documentos o archivos de rich media.
+
+### [Origen:] 
+
+Las bases de datos relacionales (RDBMS) surgieron en los años setenta y fueron concebidas para un dominio muy específico, que era la gestión de los datos tabulares, es decir, datos provenientes de formularios de papel y en los que se pudiesen aplicar operaciones CRUD (create, read, update, delete).  
+
+En algunos casos, lo solucionaron prescindiendo de algunas características en favor de otras, por ejemplo: eliminando las constraints, desnormalizando los datos, desactivando la transaccionalidad para casos específicos de reporting, etc. Todos estos cambios dieron origen a las bases de datos NoSQL.    
+
+Por otra parte, se buscaba mejorar algo que curiosamente se les da mal a las RDBMS, principalmente debido a que las consultas en las RDBMS son imperativas, a pesar de que en el modelo se definan las relaciones. Esto es una gran desventaja, ya que en algunos casos induce a que las consultas (query) sean complejas, difíciles de mantener y lentas. 
 
 ### [Nivel de adopción] 
 Las bases de datos relacionales (RDBMS) son populares en la industria por su estructura en tablas y capacidad para mantener la integridad de los datos mediante relaciones entre tablas. Ejemplos comunes incluyen MySQL, PostgreSQL, Oracle y SQL Server, preferidos en entornos empresariales por su madurez y uso estandarizado de SQL.  
@@ -42,8 +56,21 @@ Además, soportan transacciones, que son conjuntos de operaciones que deben comp
 
 -Ineficiencia con datos no estructurados: Las RDBMS no son adecuadas para gestionar datos no estructurados o semi-estructurados como documentos, imágenes, videos o grandes conjuntos de datos sin un formato claro.
 
--Sobrecarga de administración: La necesidad de mantener la integridad referencial, constraints, y otras características propias de las RDBMS puede generar sobrecarga de administración y más tiempo de desarrollo.
+-Sobrecarga de administración: La necesidad de mantener la integridad referencial, constraints, y otras características propias de las RDBMS puede generar sobrecarga de administración y más tiempo de desarrollo. 
 
-### [Diferencia entre bases de datos relacionales y no relacionales:] 
+### [Usos:]
+se usan para rastrear inventarios, procesar transacciones de comercio electrónico, administrar cantidades enormes y esenciales de información de clientes y mucho más. 
 
-La principal diferencia entre las bases de datos relacionales y no relacionales (bases de datos NoSQL) es la forma en que se almacenan y organizan los datos. Las bases de datos no relacionales no almacenan datos de manera tabular y basada en reglas. En su lugar, almacenan datos como archivos individuales y no conectados, y se pueden usar para tipos de datos complejos y no estructurados, como documentos o archivos de rich media. 
+### [Tipos:] 
+-Oracle: Almacena y facilita el manejo de grandes cantidades de información relacionada entre sí.
+-My SQL: Permite almacenar, organizar y recuperar datos de manera eficiente.
+-PostgreSQL: Código abierto, altamente estable, que proporciona soporte a diferentes funciones de SQL.
+-DB2:  Base de datos nativa de cloud creada para impulsar transacciones de baja latencia, análisis en tiempo real y aplicaciones de IA a escala
+
+### [Casos de uso reales observados:]  
+
+- Sistema de cajero automatico 
+
+- Sistema de facturacion en el aeropuerto 
+
+- Sistema de gestion de usuarios  
