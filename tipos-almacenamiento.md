@@ -170,11 +170,15 @@ En resumen, su uso se centra en el almacenamiento y manejo de datos muy complejo
 
 ### Casos de uso reales observados:
 
-Tienda de material deportivo: En una base de datos de objetos, cada artículo se guarda con sus atributos y métodos. Por ejemplo, unos patines azules, tanto para niños como para adultos. Los patines pertenecen a la clase <patines>, donde también podemos incluir patines de otros colores. La clase patines es una subcategoría de “productos deportivos con ruedas” y puede extenderse según sea necesario. Al acceder mediante el código identificador único del objeto, obtenemos todos sus métodos y atributos. 
+- Caso 1: Gestión de Usuarios en una Aplicación Web
+   - Cada usuario es un objeto con atributos como nombre, email, contraseña y métodos como actualizarPerfil() o verificarContraseña(). Los usuarios administradores heredan de la clase Usuario, añadiendo métodos para gestionar permisos y otros usuarios.
 
-Sistema de información geográfica: Los datos geográficos pueden representarse como objetos. Por ejemplo, un objeto “Ciudad” con atributos como “nombre, población y ubicación”, donde “ubicación” puede ser un objeto geográfico. Las bases de datos orientadas a objetos permiten almacenar y manipular estos datos espaciales de manera más directa que en una base de datos relacional. 
+- Caso 2: Sistema de Gestión de Proyectos de Software
+  - Los proyectos se representan como objetos que contienen otros objetos, como tareas, archivos y colaboradores. Cada proyecto tiene atributos como nombre, fecha de entrega, y métodos como agregarTarea() o asignarColaborador(). 
 
-Gestión de contenidos multimedia: Este caso puede abordarse de diversas maneras, similar a los anteriores. Por ejemplo, un objeto “Video” podría tener
+- Caso 3: Gestión de Recursos Multimedia en un Servidor
+  - Los proyectos se representan como objetos que contienen otros objetos, como tareas, archivos y colaboradores. Cada proyecto tiene atributos como nombre, fecha de entrega, y métodos como agregarTarea() o asignarColaborador().
+
 
 ## Bases de Datos Orientadas a Objetos (BDOO)
 
@@ -227,4 +231,5 @@ Funcionan agrupando en paquetes relacionados la información, estos paquetes son
 * **CATIA (CAD)** utiliza BDOO para gestionar la información de los diseños, desde piezas individuales hasta ensamblajes completos. Esto facilita la creación de configuraciones, variantes y la gestión del ciclo de vida del producto.
 * **ArcGIS (GIS)** utiliza BDOO para almacenar y gestionar la información geográfica. Por ejemplo, un río puede ser representado como un objeto con atributos como longitud, caudal y calidad del agua, y relacionado con otros objetos como puentes o ciudades.
 * **BioJava (Bioinformática)** utiliza BDOO para representar secuencias de proteínas, estructuras 3D y vías metabólicas. Esto facilita el análisis y la comparación de datos biológicos. 
+
 
