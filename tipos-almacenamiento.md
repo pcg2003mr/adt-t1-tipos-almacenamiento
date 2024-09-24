@@ -1,11 +1,12 @@
 
 # Tipos de almacenamiento
+1. [Bases de datos NoSQL](## Bases de Datos NoSQL)
 
 
 
-#  Bases de Datos NoSQL
+##  Bases de Datos NoSQL
 
-## Origen
+### Origen
 
 El origen de las bases de datos no relacionales se remonta a finales de la década de los 90, cuando Carlos Strozzi lo usó por primera vez para referirse a su base de código abierto la cual no ofrecía un lenguaje SQL. 
 
