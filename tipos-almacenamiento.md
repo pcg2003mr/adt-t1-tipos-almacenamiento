@@ -597,3 +597,67 @@ Casos de uso reales
 Caso 1. Industrias minoristas – gestión de inventario: las industrias minoristas utilizan estas bases de datos para almacenar y gestionar información de productos, categorías, proveedores, niveles de inventario y transacción de ventas entre otros campos.
 Caso 2. Atención medica – registros médicos electrónicos: hospitales, clínicas y compañías de seguros necesitan registros precisos y seguros. Las bases de datos relacionales les permiten almacenar, administrar y analizar una gran cantidad de datos de todos los pacientes.
 Caso 3. Finanzas – Sistemas bancarios y comerciales: las bases de datos relacionales ya que con ellas pueden manejar conjuntos de datos complejos, mantener la integridad de los datos y respaldar procesos de transacciones intensivas.
+
+BASES DE DATOS RELACIONALES 
+
+ 
+
+Pablo Couce García – Sergio Martínez Castaño 
+
+ 
+
+Introducción y Origen 
+
+Las bases de datos relacionales surgieron en los años setenta y fueron concebidas para un dominio muy específico y necesario, la gestión de datos tabulares, es decir, datos provenientes de formularios de papel y en los que se pudiesen aplicar operaciones. 
+
+ 
+
+Nivel de adopción 
+
+Son de las bases de datos ya planificadas más utilizadas en las empresas gracias al modelo relacional. 
+
+ 
+
+Funcionamiento del sistema de almacenamiento 
+
+Una base de datos relacional es una forma de estructurar información en tablas, filas y columnas. Un base de datos relacionales tiene la capacidad de establecer vínculos entre información mediante la unión de tablas, lo que facilita la comprensión y la obtención de estadísticas sobre la relación entre varios datos. 
+
+ 
+
+Ventajas e Inconvenientes 
+
+Dentro de las principales ventajas podemos señalar la sencillez que ofrece trabajar en la base de datos. Desde crear de cero, editar o ampliar la base de datos sin afectar a las aplicaciones que tengamos. Garantiza la uniformidad de los datos. Destaca el rendimiento y la facilidad de uso para el usuario a pesar de tener gran variedad de herramientas para usar y administrar la base de datos. 
+
+Las desventajas que puede presentar este modelo de base de datos: 
+
+Costes en mantenimiento 
+
+Si se genera un gran volumen de datos nuevo puede haber problemas de 	espacio 
+
+Puede ser compleja de aprender en su totalidad. 
+
+ 
+
+ 
+
+ 
+
+Usos 
+
+Estas bases de datos tienen una gran cantidad de usos, entre ellos podemos encontrar rastrear inventarios, procesar transacciones de comercio electrónico, administrar cantidades enormes y esenciales de información de clientes y más. 
+
+ 
+
+Tipos de Bases de Datos Relacionales 
+
+Ejemplos de bases de datos relacionales incluyen a SQL Server, Azure SQL Managed Instance, Azure SQL Database, MySQL, PostgreSQL y MariaDB. 
+
+ 
+
+Casos de uso reales 
+
+Caso 1. Industrias minoristas – gestión de inventario: las industrias minoristas utilizan estas bases de datos para almacenar y gestionar información de productos, categorías, proveedores, niveles de inventario y transacción de ventas entre otros campos. 
+
+Caso 2. Atención medica – registros médicos electrónicos: hospitales, clínicas y compañías de seguros necesitan registros precisos y seguros. Las bases de datos relacionales les permiten almacenar, administrar y analizar una gran cantidad de datos de todos los pacientes. 
+
+Caso 3. Finanzas – Sistemas bancarios y comerciales: las bases de datos relacionales ya que con ellas pueden manejar conjuntos de datos complejos, mantener la integridad de los datos y respaldar procesos de transacciones intensivas. 
